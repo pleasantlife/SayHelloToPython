@@ -51,6 +51,6 @@ Say Hello to Python
     </code></pre>
 
 # 5. 파이썬 자료형 
-    [링크보기](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_data_type.md)
+[세부 스터디 내용 보기](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_data_type.md)
     
 
