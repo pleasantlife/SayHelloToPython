@@ -50,47 +50,7 @@ Say Hello to Python
 
     </code></pre>
 
-# 5. 파이썬 자료형
-
-## 1) 문자열
-
- - """ : 쌍따옴표 세개 안에 들어간 문자는 줄바꿈까지 반영되어 변수에 대입된다.
-    <pre><code>
-        multiline = """
-        라팔아
-        팔렸니
-        아니오
-        """
-
-        print(multiline)
-
-        라팔아
-        팔렸니
-        아니오 
-
-        
-    </code></pre>
-
-- 문자열도 연산이 가능하다.
-    <pre><code>
-        bye = 'python'
-        print(bye * 2)
-
-        결과 : pythonpython
-    </code></pre>
-
-- 문자열 인덱싱과 슬라이싱
-    <pre><code>
-        index = '21세기는 정보화시대로서 코딩이 중요하게 여겨집니다.'
-
-        index[0] == 2
-        index[1] == 1
-        index[-1] == .
-        index[-2] == 다
-
-        index[:10] == 21세기는 정보화시
-        (세미콜론이 숫자 앞에 오면 해당글자까지만 잘라서 보여준다.) 
-        index[7:] == 보화시대로서 코딩이 중요하게 여겨집니다.
-        (세미콜론이 숫자 뒤에 오면 해당글자 다음부터 잘라서 보여준다.)
-    </code></pre>
+# 5. 파이썬 자료형 
+    [링크보기](/python_data_type.md)
+    
 
