@@ -13,13 +13,40 @@
  - 딕셔너리의 형태
 
     <pre><code>
-    //기본적인 형태 : {Key1:Value1, Key2:Value2, Key3,Value3}
+    # 기본적인 형태 : {Key1:Value1, Key2:Value2, Key3,Value3}
     dictionary = {'name':'kim', 'age':'17', 'address':'Seoul'}
     
-    //Value에는 리스트가 들어가기도 한다.
+    # Value에는 리스트가 들어가기도 한다.
     dic_list = {'broadcast':['sbs', 'kbs', 'mbc']}
     </code></pre>
 
-## 3. '딕셔너리' 사용법
-- Value 얻기    
+## 3. 딕셔너리 수정
+
+ - 딕셔너리 쌍 추가
+
+    <pre><code>
+    dic = {'korea' : 'seoul'}
+    dic['taiwan'] = 'taipei'
+    dic['usa'] = ['washington', 'newyork', 'LA']
+    결과 : dic = {'korea' : 'seoul', 'taiwan':'taipei', 'usa' : ['washington', 'newyork', 'LA']}
+    </code></pre>
+
+ -  딕셔너리 삭제      
+    <pre><code>
+    del dic['taiwan']
+    결과 : dic={'korea':'seoul', 'usa':['washington', 'newyork', 'LA']}
+
+## 4. '딕셔너리' 사용법
+
+ - Value 얻기 
+
+    <pre><code>
+    # 딕셔너리명[키] 형태로 얻기
+    age = {'kim' : 30, 'lee' : 17}
+    Value 얻기 : age[kim]
+    결과 : 30
+    age[lee]
+    결과 : 30
+
+
 

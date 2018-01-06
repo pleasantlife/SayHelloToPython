@@ -15,7 +15,7 @@ b = 4
 print(a*b)
 print(a**b)
 
-#문자형 변수
+# 문자형 변수
 
 multiline = """
 라팔아
@@ -25,13 +25,13 @@ multiline = """
 
 print(multiline)
 
-/*
-    라팔아
-    팔렸니
-    아니오
-*/
+# 출력결과 :
+#    라팔아
+#    팔렸니
+#    아니오
 
-#문자형 변수 연산
+
+# 문자형 변수 연산
 
 plus = '더하기'
 divide = '나누기'
@@ -39,7 +39,7 @@ divide = '나누기'
 print(plus + divide) //결과 : 더하기나누기
 print(divide * 3) //결과 : 나누기나누기나누기
 
-#문자열 인덱싱
+# 문자열 인덱싱
 
 index = '21세기는 정보화시대로서 코딩이 중요하게 여겨집니다.'
 
@@ -50,7 +50,7 @@ print(index[:10])
 print(index[7:])
 print(index[0])
 
-#리스트
+# 리스트
 
 number_list = [1, 3, 5, 7, 9]
 complex_list = [1, 'python', 'aaa', 'bbb']
