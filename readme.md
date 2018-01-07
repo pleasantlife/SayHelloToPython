@@ -53,5 +53,7 @@ Say Hello to Python
 # 5. 파이썬 자료형 
 [리스트 자료형과 튜플 자료형](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_list_and_tuple.md)
 
-[딕셔너리 자료형](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_dictionary.md)    
+[딕셔너리 자료형](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_dictionary.md)
+
+[집합 자료형](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_set_type.md)    
 
