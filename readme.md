@@ -51,9 +51,38 @@ Say Hello to Python
     </code></pre>
 
 # 5. 파이썬 자료형 
+
+## 1) 자료형 종류별 링크
+
 [리스트 자료형과 튜플 자료형](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_list_and_tuple.md)
 
 [딕셔너리 자료형](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_dictionary.md)
 
 [집합 자료형](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_set_type.md)    
+
+## 2) 자료형의 Boolean
+
+ - Boolean은 'True(참)' 또는 'False(거짓)'으로 판단할 수 있는 유형을 뜻한다.
+
+ - 파이썬에는 자료형에서도 'True(참)'와 'False(거짓)'을 구분할 수 있다.
+ - '속이 차있으면 True', '속이 비어있으면 False' 이라고 생각해두면 구분하기 쉬워진다.
+
+  <pre>
+  # 값 별 True / False 판별하기
+  "python" : True
+  ""       : False
+  [1,2,3]  : True
+  []       : False
+  ()       : False
+  {}       : False
+  1        : True
+  0        : False
+  None     : False
+  </pre>
+
+ - 코드 예시
+ 
+ 
+
+
 
