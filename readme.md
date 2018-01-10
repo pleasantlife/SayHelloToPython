@@ -52,7 +52,7 @@ Say Hello to Python
 
 # 5. 파이썬 자료형 
 
-## 1) 자료형 종류별 링크
+## 1) 자료형 종류별 정리
 
 [리스트 자료형과 튜플 자료형](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_list_and_tuple.md)
 
@@ -81,8 +81,29 @@ Say Hello to Python
   </pre>
 
  - 코드 예시
+
+ <pre>
+ # True와 False의 활용
  
+ >>> a = [1,2,3,4]
+ >>> while a:
+ ...    a.pop()
+ ...
+ 4
+ 3
+ 2
+ 1
  
+ # 설명 : while문을 분기시 a 내부에 요소가 있으면 True가 되기 때문에, pop()이 실행된 후 다시 while문으로 돌아간다. 이 과정을 a 내부에 요소가 없을때까지 반복하게 되고, 요소가 없을 때 while문을 빠져나온다.  
+
+ </pre>
+
+ ## 3) 변수에 대하여
+
+  - 파이썬의 변수는 값을 저장하기도 하지만, 객체를 가리키는 것이기도 하다.
+  - 객체를 가리키는 목적으로 사용된 변수는 객체 그 자체를 저장하는 것이 아니라, 객체가 저장된 메모리의 위치를 담고 있는 레퍼런스가 된다.
+ 
+
 
 
 
