@@ -177,5 +177,11 @@ Say Hello to Python
   False
   </code></pre> 
 
+# 6. 함수 (Definition)
+
+  - [함수 부분 정리](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_definition.md)
+
+ 
+
 
 
