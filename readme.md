@@ -6,6 +6,15 @@ Say Hello to Python
  - 1990년 암스테르담의 귀도 반 로섬이 개발
  - '몬티 파이썬의 날아다니는 서커스'에서 따왔다고 함.
  - 인터프리터 언어(한 줄씩 소스 코드를 해석해서 그때그때 실행해 결과를 바로 확인할 수 있는 언어)
+ - 객체 지향 프로그래밍과 구조적 프로그래밍을 완벽하게 지원.
+ - 최근 각광받고 있는 언어로, 국내에서는 카카오톡도 내부적으로 사용하는 언어로 알려져 있다.
+
+## 1) 파이썬의 철학
+ - 파이썬은 읽기 쉽고, 효율적인 코드를 간단하게 쓸 수 있도록 하는 철학을 갖고 있다.
+ - "아름다운게 추한 것보다 낫다."(Beautiful is better than ugly)
+ - "명시적인 것이 암시적인 것 보다 낫다."(Explicit is better than implicit)
+ - "단순함이 복잡함보다 낫다."(Simple is better than complex)
+ - "가독성은 중요하다."(Readability counts)
 
 
 # 2. 파이썬의 장점
@@ -53,6 +62,15 @@ Say Hello to Python
 # 5. 파이썬 자료형 
 
 ## 1) 자료형 종류별 정리
+
+- 정수형
+- 긴 정수형 : 메모리가 허락하는 한 무제한의 자릿수로 정수를 계산할 수 있다.
+- 부동 소수점수형
+- 복소수형
+- 문자형
+- 유니코드 문자형
+- 함수형
+- 논리형
 
 [리스트 자료형과 튜플 자료형](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_list_and_tuple.md)
 
