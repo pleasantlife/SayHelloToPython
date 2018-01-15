@@ -34,7 +34,7 @@
   # 입력값이 없는 함수 생성
   >>>def hello():
   ...  return 'Hello World!'
-
+  
   # 입력값이 없는 함수 사용
   >>>a = hello()
   >>>print(a)
@@ -45,7 +45,7 @@
   # 결과값이 없는 함수 생성
   >>>def hello(a, b):
   ... print("%d, %d의 합은 %d입니다." % (a, b, a+b))
-
+  
   # 결과값이 없는 함수 사용
   >>>a = hello(16, 17)
   >>>print(a)
@@ -58,8 +58,29 @@
   # 입력값과 결과값 없는 함수 생성
   >>>def noresult():
   ... print('No Result')
-
+  
   # 입력값과 결과값 없는 함수 사용
   >>> noresult()
   No Result
   </code></pre>
+
+## 3) 여러 개의 입력값을 받는 함수
+
+   - 입력 변수명 앞에 *을 붙이면, 입력한 값들을 전부 모아서 튜플 형태로 만들어준다.
+   <pre><code>
+   # 입력값의 갯수에 제한이 없는 함수 만들기
+   # 'args'에는 원하는 변수명을 넣으면 된다.
+   >>>def plus_all(*args):
+   ...  result = 0
+   ...  for i in args:
+   ...      result = result + i
+   ...  return result
+
+   # 실제 사용
+   >>> value = plus_all(1,2,3,4,5)
+   >>> print(value)
+   15
+   >>> value = plus_all(1,2,3,4,5,6,7,8,9,10)
+   >>> print(value)
+   55
+   </code></pre>
