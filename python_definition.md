@@ -69,7 +69,7 @@
    - 입력 변수명 앞에 *을 붙이면, 입력한 값들을 전부 모아서 튜플 형태로 만들어준다.
    <pre><code>
    # 입력값의 갯수에 제한이 없는 함수 만들기
-   # 'args'에는 원하는 변수명을 넣으면 된다.
+   # 'args'에는 원하는 변수명을 넣으면 된다.(정해진 타입을 넣어야 하는 자바와는 다르다!)
    >>>def plus_all(*args):
    ...  result = 0
    ...  for i in args:
@@ -84,3 +84,35 @@
    >>> print(value)
    55
    </code></pre>
+
+## 4) args와 kwargs에 대한 추가 설명
+
+  - 앞에서 살펴본 args뿐만 아니라 kwargs도 함께 쓰는 경우가 많다.
+  - args앞에는 * 한 개를 붙여 사용하며, tuple이나 list 형태의 자료를 unpacking(괄호나 대괄호를 제거)하여 반환한다.
+  - kwargs앞에는 * 두 개를 붙여 사용하며, dictionary 형태의 자료를 unpacking해주어 value 값을 반환해준다. 
+
+   <pre><code>
+   #kwargs 예시 추가
+   >>>profile_dict_many = {
+        "name" : "홍길동",
+        "age" : 25,
+        "height": 175,
+        "country": "대한민국"
+      }
+   >>>def myprofile_kwargs(**kwargs):
+   ...  for key, value in kwargs.items():
+   ...  print("{key} = {value}.format(key=key, value=value))
+   myprofile_kwargs(**profile_dict_many) 
+   </code></pre>
+
+## 5) 함수의 결과값은 언제나 하나이다.
+
+  - 함수에서 return문에 여러 개의 값을 쓰더라도, 결과값은 튜플값으로 묶어서 반환한다.
+  <pre><code>
+  #return문 하나에 여러 개의 값을 쓴 함수
+  >>>def sum_and_mul(a,b):
+  ... return a+b, a*b
+  >>>result = sum_and_mul(7, 12)
+  >>>print(result)
+  (19, 84)
+  </code></pre>
