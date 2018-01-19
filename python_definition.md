@@ -116,3 +116,37 @@
   >>>print(result)
   (19, 84)
   </code></pre>
+
+  - 임의의 상황이 되었을 때, 함수를 빠져 나가고자 하면 return 함수를 단독으로 사용한다.
+  <pre><code>
+  #return문으로 함수 종료.
+  >>>def terminate_zero(value):
+  ... if value == 0:
+  ...   return
+  ... print(value)
+  </code></pre>
+
+## 6) 함수 안에서 함수 밖의 변수를 변경하는 방법
+
+ - return 함수를 이용하거나, global 명령어를 이용한다.
+ - 단, global은 의존성을 갖기 떄문에 가급적 사용하지 않도록 한다.
+  <pre><code>
+  #return 이용하기
+  >>>value = 1
+  >>>def valuedef(value):
+  ...   value = value + 1
+  ...   return value
+  ...
+  >>>value = valuedef + 1
+  2
+
+  #global 명령어 이용하기
+  >>>value = 1
+  >>>def valuedef():
+  ...   global value
+  ...   value = value + 1
+  ...
+  >>>valuedef()
+  >>>print(value)
+  2
+  </code></pre>
