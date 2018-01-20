@@ -150,3 +150,27 @@
   >>>print(value)
   2
   </code></pre>
+
+# 7) 함수 사용시 주의 사항
+
+ - 함수에서 초기값을 설정해 놓은 인수 뒤에 있는 인수는 사용할 수 없다.
+ <pre><code>
+ #초기값 설정
+ def profile(name, age, man=True):
+    print("이름 : %s" % name )
+    print("나이 : %d" % age )
+    if man:
+      print("성별 : 남자")
+    else:
+      print("성별 : 여자")
+ #초기값 인수 위치 변경
+ def profileswitch(name, man=True, age):
+    print("이름 : %s" % name )
+    print("나이 : %d" % age )
+    if man:
+      print("성별 : 남자")
+    else:
+      print("성별 : 여자")
+
+  #profileswitch 함수 실행시 SyntaxError 발생
+  </code></pre>  
