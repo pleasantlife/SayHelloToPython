@@ -193,8 +193,12 @@ Say Hello to Python
   <pre><code>
   >>> b is a
   False
-  </code></pre> 
+  </code></pre>
 
+# 6. 클래스 (Class)
+
+ - [클래스 부분 정리](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_class.md)
+   
 # 6. 함수 (Definition)
 
   - [함수 부분 정리](https://github.com/pleasantlife/SayHelloToPython/blob/master/python_definition.md)
